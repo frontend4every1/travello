@@ -5,22 +5,16 @@
 })
 
 <body>
-  <div class="wrapper">
-    @@include('html/header.html')
-    <main class="main" id="main">
-      <section class="hero" id="hero">
-        <div class="container">
-          <div class="hero__inner">
-            HERO
-          </div>
-        </div>
-      </section>
-    </main>
-    @@include('html/footer.html')
-  </div>
+    <div class="wrapper">
+        @@include('html/header.html')
+        <main class="main" id="main">
+            @@include('html/hero.html')
+        </main>
+        @@include('html/footer.html')
+    </div>
 
-  <!-- CUSTOM JS -->
-  <script src="./js/scripts.min.js"></script>
+    <!-- CUSTOM JS -->
+    <script src="./js/scripts.min.js"></script>
 </body>
 
 </html>
